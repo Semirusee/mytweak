@@ -1,0 +1,10 @@
+Package: com.semir.mytweak
+Name: MyTweak
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Il mio primo tweak di test per iPhone 4
+Maintainer: semir
+Author: semir
+Section: Tweaks
+
+
