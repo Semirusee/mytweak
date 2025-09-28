@@ -7,7 +7,7 @@ Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 16.3.1)
 Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, technology.goated.appsync, technology.goated.appsyncunified, vaginalfisting.appsynctool, science.xnu.substitute
 Replaces: us.hackulo.appsync50, net.angelxwind.appsyncunified
 Provides: appsync, net.angelxwind.appsyncunified
-Filename: ./debs/nodelete-ai.akemi.appsyncunified.deb
+Filename: ./nodelete-ai.akemi.appsyncunified.deb
 Size: 58440
 MD5sum: 26f898f0b80f3bd842527aa9a9859bb1
 SHA1: f0392e1c1992789ac92c17dc7db3718fca6df899
@@ -25,7 +25,7 @@ Architecture: iphoneos-arm
 Maintainer: Eevee
 Installed-Size: 1548
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), org.swift.protobuf.swiftprotobuf (>= 1.29.0)
-Filename: ./debs/com.eevee.spotify_5.9.9_iphoneos-arm.deb
+Filename: ./com.eevee.spotify_5.9.9_iphoneos-arm.deb
 Size: 391608
 MD5sum: 24cf77d598a454dc82b33d9a8001b25d
 SHA1: b8d71408d0110e7278ea9d2e0e39fcee4c753207
@@ -34,4 +34,24 @@ Section: Tweaks
 Description: A tweak to get Spotify Premium for free, just like Spotilife
 Author: Eevee
 Name: EeveeSpotify
+
+Package: net.angelxwind.appsync40plus
+Version: 1.2.2
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Pre-Depends: firmware (>= 4.0), firmware (<< 5.0)
+Conflicts: us.hackulo.appsync40, us.hackulo.appsync41, us.hackulo.appsync42
+Replaces: us.hackulo.appsync40, us.hackulo.appsync41, us.hackulo.appsync42
+Provides: appsync, us.hackulo.appsync40, us.hackulo.appsync41, us.hackulo.appsync42
+Filename: ./net.angelxwind.appsync40plus.deb
+Size: 9202
+MD5sum: 4450d7c556bdf0504b14d678da5e5362
+SHA1: 7b0040049afef1d0309c108bcf0a7ed9d19921d4
+SHA256: 0d20fd163cfa37f4e63f054516d9b7c0f68801cf517594dbe2145faf50c5c8a7
+Section: Tweaks
+Homepage: https://cydia.akemi.ai/
+Description: AppSync for iOS 4 allows you to sync and install unsigned iOS applications. Only for iOS 4.
+Author: Karen/あけみ, Dissident <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/net.angelxwind.appsync40plus
+Name: AppSync for iOS 4.0
 
