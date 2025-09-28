@@ -12,19 +12,40 @@ Size: 58440
 MD5sum: 26f898f0b80f3bd842527aa9a9859bb1
 SHA1: f0392e1c1992789ac92c17dc7db3718fca6df899
 SHA256: fa97d20ecaab914c7d07fc17ff2f31c15d34b33a5eebc158cb2c83e8a7ec2abc
-Section: Utilities
+Section: Tweaks
 Homepage: https://cydia.akemi.ai/
 Description: Enables the ability to install unsigned/fakesigned iOS applications.
 Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
 Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
 Name: AppSync Unified
 
+Package: com.dorcet.audioexplorer
+Version: 1.8.1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 5721
+Depends: firmware (>= 3.0), applist (>= 1.5.1)
+Filename: ./audioexplorer_1.8.1.deb
+Size: 1857110
+MD5sum: 68b4861b46f3d8b2b1201f6e58753650
+SHA1: 73ea821345ff8bf6b532bbc6f9f67cd0600edb36
+SHA256: 633ad1ea94646c113639cc9f95cb08d98650bd9d4421faaaa2d6c66f30d56d7d
+Section: Multimedia
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=audioexplorerDp
+Description: search & play audio files on your device
+Tag: purpose::uikit, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11
+Author: Erik E. <audioexplorer@erike.net>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=audioexplorerDp
+Dev: erike
+Icon: file:///Applications/AudioExplorer.app/iPhone_Glossy_Icon_Icon.png
+Name: AudioExplorer
+
 Package: com.eevee.spotify
 Version: 5.9.9
 Architecture: iphoneos-arm
 Maintainer: Eevee
 Installed-Size: 1548
-Depends: dev.theos.orion (>= 1.0.0), firmware (>6.0), org.swift.protobuf.swiftprotobuf (>= 1.29.0)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), org.swift.protobuf.swiftprotobuf (>= 1.29.0)
 Filename: ./com.eevee.spotify_5.9.9_iphoneos-arm.deb
 Size: 391608
 MD5sum: 24cf77d598a454dc82b33d9a8001b25d
@@ -39,17 +60,17 @@ Package: com.ixmoe.1pwn.Veteris
 Version: 1.7.2
 Architecture: iphoneos-arm
 Maintainer: Electimon <electimon@gmail.com>
-Depends: firmware (>= 5.0), appsync, net.angelxwind.appsyncunified
-
+Depends: firmware (>= 5.0), appsync
 Filename: ./Veteris-v1.7.2.deb
 Size: 484306
 MD5sum: f2d6c53be6b33a98665af70375dcc9d6
 SHA1: e56cb72d8e8fcf37b5545b419d12523cf3c401ca
 SHA256: 86596bc69d7dd75229e245fa8ac66c3191c7b7ded512aec18f2ccb5d1f4f9c0c
-Section: Tweak
+Section: Utilities
 Homepage: http://1pwn.ixmoe.com/
 Description: A Client for the Veteris Server.
 Author: Electimon <electimon@gmail.com>
+Icon: file:///Applications/Veteris.app/AppIcon57x57@2x.png
 Name: Veteris
 
 Package: net.angelxwind.appsync40plus
