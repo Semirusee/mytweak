@@ -24,7 +24,7 @@ Version: 5.9.9
 Architecture: iphoneos-arm
 Maintainer: Eevee
 Installed-Size: 1548
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), org.swift.protobuf.swiftprotobuf (>= 1.29.0)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>6.0), org.swift.protobuf.swiftprotobuf (>= 1.29.0)
 Filename: ./com.eevee.spotify_5.9.9_iphoneos-arm.deb
 Size: 391608
 MD5sum: 24cf77d598a454dc82b33d9a8001b25d
@@ -39,7 +39,8 @@ Package: com.ixmoe.1pwn.Veteris
 Version: 1.7.2
 Architecture: iphoneos-arm
 Maintainer: Electimon <electimon@gmail.com>
-Depends: firmware (>= 5.0), appsync
+Depends: firmware (>= 5.0), appsync, net.angelxwind.appsyncunified
+
 Filename: ./Veteris-v1.7.2.deb
 Size: 484306
 MD5sum: f2d6c53be6b33a98665af70375dcc9d6
