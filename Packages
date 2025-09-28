@@ -45,11 +45,10 @@ Size: 484306
 MD5sum: f2d6c53be6b33a98665af70375dcc9d6
 SHA1: e56cb72d8e8fcf37b5545b419d12523cf3c401ca
 SHA256: 86596bc69d7dd75229e245fa8ac66c3191c7b7ded512aec18f2ccb5d1f4f9c0c
-Section: Utilities
+Section: Tweak
 Homepage: http://1pwn.ixmoe.com/
 Description: A Client for the Veteris Server.
 Author: Electimon <electimon@gmail.com>
-Icon: file:///Applications/Veteris.app/AppIcon57x57@2x.png
 Name: Veteris
 
 Package: net.angelxwind.appsync40plus
