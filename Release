@@ -1,0 +1,9 @@
+Origin: NexonTech's Repo
+Label: NexonTech's Repo
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm
+Components: main
+Description: Repo personale per iPhone 4
+Icon: file:///icon.png
